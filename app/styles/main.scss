@@ -1,6 +1,6 @@
-$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+$icon-font-path: "app/bower_components/sass-bootstrap/fonts/";
 
-@import 'sass-bootstrap/lib/bootstrap';
+@import 'app/bower-components/sass-bootstrap/lib/bootstrap';
 
 .browsehappy {
     margin: 0.2em 0;
@@ -59,7 +59,7 @@ body {
 }
 
 #headerimg {
-    background-image: url('../images/dumplings.jpg');
+    background-image: url('app/images/dumplings.jpg');
     background-size: cover;
     min-height: 300px;
 }
